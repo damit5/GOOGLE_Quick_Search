@@ -14,7 +14,9 @@ all_statement = {
     "SQL错误":'site:{example_domain} intext:"sql syntax near" | intext:"syntax error has occurred" | intext:"incorrect syntax near" | intext:"unexpected end of SQL command" | intext:"Warning: mysql_connect()" | intext:"Warning: mysql_query()" | intext:"Warning: pg_connect()',
     "公开文件信息":"site:{example_domain} ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv | ext:xlsx | ext:xls",
     "phpinfo()":'site:{example_domain} ext:php intitle:phpinfo "published by the PHP Group',
-    "子域名":"site:*.{example_domain}"
+    "子域名":"site:*.{example_domain}",
+    "后台管理":"site:{example_domain} intext: 后台|管理|admin",
+    "缓存":"cache:{example_domain}"
     }
 
 # GOOGLE SEARCH STATEMENT（搜索前缀）
