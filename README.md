@@ -14,7 +14,8 @@
     "phpinfo()":'site:{example_domain} ext:php intitle:phpinfo "published by the PHP Group',
     "子域名":"site:*.{example_domain}",
     "后台管理":"site:{example_domain} intext: 后台|管理|admin",
-    "缓存":"cache:{example_domain}"
+    "缓存_1":"cache:http://{example_domain}"
+	"缓存_2":"cache:https://{example_domain}"
 ```
 ## 使用
 
